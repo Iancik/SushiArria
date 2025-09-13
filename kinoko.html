@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SushiArria</title>
+    <link rel="stylesheet" href="styles/meniu.css">
+    <link rel="stylesheet" href="styles/kinoko.css">
+    <link rel="stylesheet" href="styles/supa.css">
+</head>
+<body>
+    <header>
+        <div class="bar-1">
+            <img src="images/header-bar.png" alt="">
+        </div>
+        <div class="header-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="Sushi Arria Logo">
+                </a>
+            </div>
+        
+            <nav class="menu">
+                <a href="despre.html">DESPRE NOI</a>
+                <a href="seturi.html">SETURI</a>
+                <a href="contacte.html">CONTACTE</a>
+                <a href="login.html">LOGIN</a>
+            </nav>
+
+            <div class="language">
+                <img src="images/Eroglif.png">    
+                <span>ROMÂNĂ</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="menu-text">
+        <h1>MENU</h1>
+    </div>
+
+    <div class="menu-dropdown" id="menuDropdown">
+        <div class="menu-content">
+            <div class="supe-container">
+                <div class="supa-item">
+                    <a href="suparamen.html">Supa Ramen</a>
+                </div>
+                <div class="supa-item">
+                    <a href="kinoko.html">Kinoko</a>
+                </div>
+                <div class="supa-item">
+                    <a href="miso.html">Miso Mirutki</a>
+                </div>
+                <div class="supa-item">
+                    <a href="smiso.html">Supa Miso</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sectiunea principala -->
+    <section>
+        <div class="imagine-principala">
+            <img src="images/lenolium.png" alt="Imagine principală">
+        </div>
+        <div class="kinoko">
+            <img src="images/kinoko.png" alt="Supă Kinoko">
+        </div>
+        <div class="reteta3">
+            <div class="volume">110gr</div>
+            <div class="description">
+                <span class="main-text">Ciuperci de corali, ciuperci negre de lemn, castraveți, sos dulce, susan, ardei chilli, coriandru, lime.</span>
+            </div>
+            <div class="price">55.00MDL</div>
+        </div>
+        <div class="spices">
+            <img src="images/spetii.png" alt="Boluri cu condimente">
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="social-icons">
+                <a href="#"><img src="images/kitty.png" alt="GitHub"></a>
+                <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+                <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+                <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+            </div>
+            <p>Copyright © 2024 Sushi Arria. All rights reserved.</p>
+            <p>Design by Arina</p>
+        </div>
+    </footer>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const menuText = document.querySelector('.menu-text');
+        const menuDropdown = document.getElementById('menuDropdown');
+
+        menuText.addEventListener('click', function(e) {
+            e.preventDefault();
+            menuDropdown.style.display = menuDropdown.style.display === 'block' ? 'none' : 'block';
+        });
+
+        document.addEventListener('click', function(e) {
+            if (!menuDropdown.contains(e.target) && !menuText.contains(e.target)) {
+                menuDropdown.style.display = 'none';
+            }
+        });
+
+        // Adăugăm codul pentru rotație
+        const links = document.querySelectorAll('.supa-item a');
+        const kinokoImage = document.querySelector('.kinoko img');
+
+        links.forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                const href = this.getAttribute('href');
+                
+                // Adăugăm animația de rotație
+                kinokoImage.classList.add('rotate-out');
+                
+                setTimeout(() => {
+                    window.location.href = href + '?animate=true';
+                }, 800);
+            });
+        });
+
+        // Verificăm dacă trebuie să animăm intrarea
+        if (window.location.search.includes('animate=true')) {
+            kinokoImage.classList.add('rotate-in');
+        }
+    });
+    </script>
+</body>
+</html>

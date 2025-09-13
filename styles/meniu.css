@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&family=Montaga&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Staatliches&display=swap');
+
+  .menu-text {
+    position: absolute;
+    right: 180px; 
+    color: #b02e22;  
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Staatliches', sans-serif;
+    cursor: pointer;
+  }
+  
+  .menu-panel {
+    position: absolute;
+    top: 10px;
+    right: 140px;
+    padding: 8px;
+    width: 230px; 
+    height: 400px; 
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Judson', sans-serif;
+    color: #5e4b2f;
+    z-index: 1; 
+    background-image: url("/images/meniu.png");
+  }
+  
+  .menu-panel ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu-panel li {
+    margin-bottom: 10px;
+  }
+  
+  .menu-panel a {
+    text-decoration: none;
+    color: #5e4b2f;
+  }
+  

@@ -1,0 +1,523 @@
+@import url('https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&family=Montaga&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montaga&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montaga&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Judson:ital,wght@0,400;0,700;1,400&family=Montaga&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Staatliches&display=swap');
+
+.menu-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    background-image: url("images/f");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-family: 'Staatliches', sans-serif;
+  }
+  
+  
+  .item-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .item-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .item-description p {
+    margin: 0;
+  }
+  
+  .menu-list {
+    width: 30%;
+    background: rgba(244, 227, 195, 1); /* Fundal bej */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  .menu-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu-list li {
+    font-size: 20px;
+    color: #5e4b2f; 
+    margin-bottom: 10px;
+  }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    position: relative;
+    background-color: #8D7859;
+}
+
+header {
+    position: relative;
+    z-index: 20;
+    padding: 2px 0;
+    background: linear-gradient(180deg, #000000 50%, rgba(0, 0, 0, 0) 100%), #8D7859;
+}
+
+.header-container {
+    display:flex;
+    align-items: center;
+    align-content:center;
+    justify-content: space-between;
+    padding: 0 10px;
+    height: 70px;
+    
+}
+.bar-1 {
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+}
+.bar-1 img{
+  width: 100%;
+    
+}
+.logo img {
+    object-fit:contain;
+    width:400px;
+    height:200px;
+    margin-bottom:50px;
+}
+
+.menu a {
+    color: #d2b48c; 
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 40px;
+}
+
+.menu a:hover {
+    color: #eae0c2; 
+}
+
+.language {
+    font-size: 14px;
+    color: #d2b48c;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    left: -90px;
+    top: -140px;
+    
+    
+}
+
+.language span {
+    font-weight: bold;
+    position: absolute;
+    top:70px;
+}
+.language img{
+    top:0px;
+    position:absolute;
+    
+}
+.menu {
+    display: fixed;
+    align-items: center;
+    margin-right: 199px;
+}
+
+.menu a:first-child {
+    margin-left: 0;
+}
+.imagine-principala img {
+    width: 100%;
+}
+
+footer {
+    position: relative;
+    z-index: 20;
+    color: #d2b48c;
+    background-color: #000000;
+    background-image: url("/images/header-bar.png");
+    height: 120px;
+    margin-top: 90px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+.imagine-principala {
+    display: none;
+}
+
+
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.social-icons {
+    margin-left: -1280px; 
+    transform: translateY(20px);
+  }
+  .social-icons a {
+    margin: 0 10px;
+  }
+  
+  .social-icons img {
+      width: 36px; 
+      filter: none; 
+      color: #FCE3AF;
+      fill: #FCE3AF;
+  }
+
+
+
+.menu a.active {
+    font-weight: bold;
+    color: #C96B49; 
+}
+
+
+  hr {
+    border: 1px solid #D7DFB2;
+    width: 100%;
+    margin: 20px auto;
+    width: 95%;
+  }
+  
+  .menu-text {
+    position: absolute;
+    right: 97px;
+    top: -140px;
+    color: #b02e22;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Staatliches', sans-serif;
+    z-index: 25;
+}
+.sushi-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 140px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 3;
+    margin-top: 50px;
+}
+
+.sushi-item {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    color: #fff;
+    position: relative;
+    z-index: 3;
+    transition: transform 0.3s ease;
+}
+
+.sushi-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.sushi-item:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5); 
+}
+.sushi-item h3,
+.sushi-item p {
+    transition: transform 0.3s ease, color 0.3s ease; 
+}
+
+.sushi-item:hover img {
+    transform: scale(1.1);
+}
+
+.sushi-item:hover h3,
+.sushi-item:hover p {
+    transform: scale(1.1); 
+    color: #e0bc79; 
+}
+
+/* Responsive Design pentru Seturi */
+
+/* Tablet și ecrane medii */
+@media (max-width: 800px) {
+    .header-container {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .logo img {
+        width: 300px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .menu {
+        margin-right: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .menu a {
+        margin: 0 20px;
+        font-size: 18px;
+    }
+
+    .menu-text {
+        right: 10px;
+        font-size: 50px;
+        top: -100px;
+    }
+
+    .language {
+        left: 0;
+        top: 0;
+        position: static;
+        margin-top: 10px;
+    }
+
+    .language span {
+        position: static;
+    }
+
+    .language img {
+        position: static;
+        margin-right: 5px;
+    }
+
+    .sushi-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 80px;
+        padding: 15px;
+        margin-top: 30px;
+    }
+
+    .sushi-item {
+        padding: 15px;
+    }
+
+    .social-icons {
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
+/* Telefoane mari (iPhone 13, etc.) */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: auto;
+        padding: 15px 10px;
+    }
+
+    .logo img {
+        width: 200px;
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+    .menu {
+        flex-direction: column;
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    .menu a {
+        margin: 8px 0;
+        font-size: 16px;
+        padding: 5px 0;
+    }
+
+    .menu-text {
+        font-size: 40px;
+        top: -80px;
+        right: 10px;
+    }
+
+    .language {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+
+    .sushi-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+    .sushi-item {
+        padding: 12px;
+    }
+
+    .sushi-item img {
+        margin-bottom: 10px;
+    }
+
+    .sushi-item h3 {
+        font-size: 18px;
+    }
+
+    .sushi-item p {
+        font-size: 14px;
+    }
+
+    .social-icons {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .social-icons img {
+        width: 32px;
+    }
+}
+
+/* iPhone 13 mini și telefoane mici */
+@media (max-width: 480px) {
+    .header-container {
+        padding: 10px 5px;
+    }
+
+    .logo img {
+        width: 150px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .menu a {
+        font-size: 14px;
+        margin: 6px 0;
+    }
+
+    .menu-text {
+        font-size: 30px;
+        right: 5px;
+        top: -60px;
+    }
+
+    .language {
+        font-size: 11px;
+    }
+    .menu-text {
+        display: none;
+    }
+    
+
+    .sushi-container {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        padding: 8px;
+        margin-top: 15px;
+    }
+
+    .sushi-item {
+        padding: 10px;
+    }
+
+    .sushi-item img {
+        margin-bottom: 8px;
+    }
+
+    .sushi-item h3 {
+        font-size: 16px;
+    }
+
+    .sushi-item p {
+        font-size: 12px;
+    }
+
+    .social-icons img {
+        width: 28px;
+    }
+}
+
+/* iPhone 13 mini specific (375px) */
+@media (max-width: 375px) {
+    .logo img {
+        width: 130px;
+    }
+
+    .menu a {
+        font-size: 13px;
+    }
+
+    .menu-text {
+        font-size: 25px;
+        top: -50px;
+    }
+
+    .sushi-container {
+        gap: 25px;
+        padding: 5px;
+    }
+
+    .sushi-item {
+        padding: 8px;
+    }
+
+    .sushi-item h3 {
+        font-size: 15px;
+    }
+
+    .sushi-item p {
+        font-size: 11px;
+    }
+}
+
+/* Pentru ecrane foarte mici */
+@media (max-width: 320px) {
+    .logo img {
+        width: 110px;
+    }
+
+    .menu a {
+        font-size: 12px;
+    }
+
+    .menu-text {
+        font-size: 20px;
+        top: -40px;
+    }
+
+    .sushi-container {
+        gap: 20px;
+        padding: 3px;
+    }
+
+    .sushi-item {
+        padding: 6px;
+    }
+
+    .sushi-item h3 {
+        font-size: 14px;
+    }
+
+    .sushi-item p {
+        font-size: 10px;
+    }
+}
+
+

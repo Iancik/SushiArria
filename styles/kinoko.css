@@ -1,0 +1,744 @@
+@import url('https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&family=Montaga&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montaga&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montaga&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Staatliches&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    background-image: url("images/f");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-family: 'Staatliches', sans-serif;
+  }
+  
+  
+  .item-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .item-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .item-description p {
+    margin: 0;
+  }
+  .price {
+    font-size: 20px;
+    color: #ffdf00; 
+  }
+  
+  .menu-list {
+    width: 30%;
+    background: rgba(244, 227, 195, 1); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  .menu-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu-list li {
+    font-size: 20px;
+    color: #5e4b2f; 
+    margin-bottom: 10px;
+  }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    padding: 2px 0;
+    background: linear-gradient(180deg, #000000 50%, rgba(0, 0, 0, 0) 100%), #8D7859;
+
+}
+
+.header-container {
+    display:flex;
+    align-items: center;
+    align-content:center;
+    justify-content: space-between;
+    padding: 0 10px;
+    height: 70px;
+    
+}
+.bar-1 {
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+}
+.bar-1 img{
+  width: 100%;
+    
+}
+.logo img {
+    object-fit:contain;
+    width:400px;
+    height:200px;
+    margin-bottom:50px;
+}
+
+.menu a {
+    color: #d2b48c; 
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 40px;
+}
+
+.menu a:hover {
+    color: #eae0c2; 
+}
+
+.language {
+    font-size: 14px;
+    color: #d2b48c;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    left: -90px;
+    top: -140px;
+    
+    
+}
+
+.language span {
+    font-weight: bold;
+    position: absolute;
+    top:70px;
+}
+.language img{
+    top:0px;
+    position:absolute;
+    
+}
+.menu {
+    display: fixed;
+    align-items: center;
+    margin-right: 199px;
+}
+
+.menu a:first-child {
+    margin-left: 0;
+}
+.imagine-principala img {
+    width: 100%;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    min-height: 120px;
+    margin-top: 500px; /* Asigură-te că acest spațiu este suficient */
+    color: #d2b48c;
+    background-color: #000000;
+    background-image: url("/images/header-bar.png");
+    height: 200px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+.imagine-principala {
+    width: 100%;
+    height: 100%; 
+    background-color: #684A27;
+    z-index: 10;
+}
+
+
+
+.footer-container {
+    max-width: 120px;
+    margin: 0 auto;
+}
+
+.social-icons {
+    margin-left: -1280px;
+    padding-top: 0;
+    margin-bottom: 10px;
+}
+.social-icons a {
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 36px; 
+    filter: none; 
+    color: #FCE3AF;
+    fill: #FCE3AF;
+}
+
+.title {
+    font-size: 70px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+
+
+hr {
+    border: 1px solid #D7DFB2;
+    width: 100%;
+    margin: 20px auto;
+    width: 95%;
+}
+
+.menu-text {
+    position: absolute;
+    right: 180px;
+    z-index: 3;
+    top: 8px;
+    color: #b02e22;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Staatliches', sans-serif;
+}
+.kinoko img {
+    width: 50%;
+    z-index: -10;  
+    margin-top: -60px;
+    transition: all 0.5s ease;
+}
+.kinoko {
+    margin-top: -720px;
+    margin-bottom: -200px;
+    position: relative;
+}
+.reteta {
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(104, 74, 39, 1)),#2b1810;
+    border-radius: 15px;
+    padding: 20px;
+    color: #fff;
+    width: 525px;
+    height: 150;
+    font-family: 'Judson';
+    color: #F2DDBC;
+    border-radius: 45px;
+    font-size: 30px;
+    margin: 20px;
+    margin-left: 650px;
+    margin-top: -300px;
+    margin-bottom: -100px;
+}
+.spices {
+    margin-left: 800px;
+    margin-top: -170px;
+    margin-bottom: -200px;
+}
+
+.spices img {
+    width: 600px;
+    height: auto; 
+    display: inline-block; 
+}
+
+.volume {
+    margin-bottom: 10px;
+}
+
+.description {
+    margin: 15px 0;
+    line-height: 1;
+}
+
+.price {
+    text-align: center;
+    margin-left: 250px;
+    margin-top: 10px;
+    font-size: 30px;
+    color: #F8F0D6;
+    font-weight: bold;
+}
+
+/* Stilurile pentru meniul dropdown */
+.menu-dropdown {
+    position: absolute;
+    top: 100px;
+    right: 180px;
+    background: rgba(70, 60, 45, 0.97);
+    min-width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    display: none;
+    z-index: 1000;
+}
+
+.supe-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.supa-item {
+    display: flex;
+    align-items: center;
+    padding: 15px 25px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: relative;
+}
+
+.supa-item:hover {
+    transform: translateX(10px);
+    background: rgba(0, 0, 0, 0.35);
+}
+
+.supa-item:hover::before {
+    content: "•";
+    position: absolute;
+    left: 5px;
+    color: #C96B49;
+}
+
+.supa-item a {
+    text-decoration: none;
+    width: 100%;
+    color: #d2b48c;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.supa-item:hover a {
+    color: #C96B49;
+}
+
+section {
+    position: relative;
+    margin-bottom: 0;
+}
+
+/* Adăugăm animațiile pentru rotație */
+@keyframes rotateSumaOut {
+    from {
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+    to {
+        transform: rotate(180deg);
+        opacity: 0;
+    }
+}
+
+@keyframes rotateSupaIn {
+    from {
+        transform: rotate(180deg);
+        opacity: 0;
+    }
+    to {
+        transform: rotate(360deg);
+        opacity: 1;
+    }
+}
+
+/* Clasele pentru animații */
+.rotate-out {
+    animation: rotateSumaOut 0.8s ease-in-out forwards;
+}
+
+.rotate-in {
+    animation: rotateSupaIn 0.8s ease-in-out forwards;
+}
+
+/* Responsive Design pentru Kinoko */
+
+/* Tablet și ecrane medii */
+@media (max-width: 800px) {
+    .header-container {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        padding: 10px;
+    }
+    .imagine-principala {
+        height: 100%;
+    }
+    .logo img {
+        width: 300px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .menu {
+        margin-right: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .menu a {
+        margin: 0 20px;
+        font-size: 18px;
+    }
+
+    .menu-text {
+        right: 10px;
+        font-size: 30px;
+    }
+
+    .language {
+        left: 0;
+        top: 0;
+        position: static;
+        margin-top: 10px;
+    }
+
+    .language span {
+        position: static;
+    }
+
+    .language img {
+        position: static;
+        margin-right: 5px;
+    }
+
+    .title {
+        font-size: 50px;
+    }
+
+    .kinoko {
+        margin-top: 800px;
+        text-align: center;
+    }
+
+    .kinoko img {
+        width: 80%;
+        max-width: 400px;
+        margin-top: 400px;
+    }
+
+    .reteta {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 20px;
+        padding: 25px;
+        font-size: 24px;
+    }
+
+    .spices {
+        margin-left: 5%;
+        margin-top: 20px;
+        text-align: center;
+        display: none;
+    }
+
+    .spices img {
+        width: 80%;
+        max-width: 400px;
+    }
+
+    .price {
+        margin-left: 0;
+        font-size: 24px;
+    }
+
+    .social-icons {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .menu-dropdown {
+        position: fixed;
+        top: 120px;
+        right: 10px;
+        left: 10px;
+        min-width: auto;
+        width: calc(100% - 20px);
+    }
+}
+
+/* Telefoane mari (iPhone 13, etc.) */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: auto;
+        padding: 15px 10px;
+    }
+
+    .logo img {
+        width: 200px;
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+    .menu {
+        flex-direction: column;
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    .menu a {
+        margin: 8px 0;
+        font-size: 16px;
+        padding: 5px 0;
+    }
+
+    .menu-text {
+        font-size: 25px;
+        top: 15px;
+        right: 10px;
+    }
+
+    .language {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+
+    .title {
+        font-size: 40px;
+    }
+
+    .kinoko {
+        margin-top: -300px;
+        text-align: center;
+    }
+
+    .kinoko img {
+        width: 90%;
+        max-width: 300px;
+        margin-top: -180px;
+    }
+
+    .reteta {
+        width: 95%;
+        margin-left: 2.5%;
+        margin-top: 15px;
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    .spices {
+        margin-left: 2.5%;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .spices img {
+        width: 90%;
+        max-width: 300px;
+    }
+
+    .price {
+        margin-left: 0;
+        font-size: 20px;
+    }
+
+    .social-icons {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .social-icons img {
+        width: 32px;
+    }
+
+    .menu-dropdown {
+        position: fixed;
+        top: 100px;
+        right: 5px;
+        left: 5px;
+        width: calc(100% - 10px);
+        padding: 15px;
+    }
+}
+
+/* iPhone 13 mini și telefoane mici */
+@media (max-width: 480px) {
+    .header-container {
+        padding: 10px 5px;
+    }
+    .description {
+        margin-top: 100px;
+    }
+
+    .logo img {
+        width: 150px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .menu a {
+        font-size: 14px;
+        margin: 6px 0;
+    }
+
+    .menu-text {
+        font-size: 20px;
+        right: 5px;
+        top: 10px;
+    }
+
+    .language {
+        font-size: 11px;
+    }
+
+    .title {
+        font-size: 35px;
+    }
+
+    .kinoko {
+        margin-top: -250px;
+        text-align: center;
+    }
+
+    .kinoko img {
+        width: 95%;
+        max-width: 250px;
+        margin-top: 40px;
+    }
+    .imagine-principala {
+        height: 50%;
+    }
+ 
+    .reteta {
+        width: 98%;
+        margin-left: 1%;
+        margin-top: 10px;
+        padding: 15px;
+        font-size: 16px;
+    }
+    .reteta3 {
+        width: 98%;
+        margin-left: 1%;
+        margin-top: 10px;
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .spices {
+        margin-left: 1%;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .spices img {
+        width: 95%;
+        max-width: 250px;
+    }
+
+    .price {
+        margin-left: 0;
+        font-size: 18px;
+    }
+
+    .social-icons img {
+        width: 28px;
+    }
+
+    .menu-dropdown {
+        top: 80px;
+        padding: 12px;
+    }
+
+    .supa-item {
+        padding: 12px 20px;
+    }
+
+    .supa-item a {
+        font-size: 16px;
+    }
+    body {
+        background-color: #684A27;
+    }
+    footer {
+        margin-top: 120px;
+    }
+}
+
+/* iPhone 13 mini specific (375px) */
+@media (max-width: 375px) {
+    .logo img {
+        width: 130px;
+    }
+  
+    .menu a {
+        font-size: 13px;
+    }
+
+    .menu-text {
+        font-size: 18px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+
+    .reteta {
+        padding: 12px;
+        font-size: 14px;
+        margin-top: 250px;
+    }
+    .spices img {
+        width: 98%;
+        max-width: 220px;
+    }
+
+    .price {
+        font-size: 16px;
+    }
+}
+
+/* Pentru ecrane foarte mici */
+@media (max-width: 320px) {
+    .logo img {
+        width: 110px;
+    }
+
+    .menu a {
+        font-size: 12px;
+    }
+
+    .menu-text {
+        font-size: 16px;
+    }
+
+    .title {
+        font-size: 25px;
+    }
+
+    .kinoko {
+        margin-top: -180px;
+    }
+
+    .kinoko img {
+        width: 100%;
+        max-width: 200px;
+        margin-top: -140px;
+    }
+
+    .reteta {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .spices img {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .price {
+        font-size: 14px;
+    }
+}

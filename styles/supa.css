@@ -1,0 +1,822 @@
+@import url('https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&family=Montaga&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montaga&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montaga&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Staatliches&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    background-image: url("images/f"); 
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-family: 'Staatliches', sans-serif;
+  }
+  
+  .menu-item {
+    display: flex;
+    gap: 15px;
+    width: 60%;
+    background: rgba(0, 0, 0, 0.7); 
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+  }
+  
+  .item-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .item-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .item-description p {
+    margin: 0;
+  }
+  
+  .highlight {
+    color: #ff6f61;
+    font-weight: bold;
+  }
+  
+  .price {
+    font-size: 20px;
+    color: #ffdf00; 
+  }
+  
+  .menu-list {
+    width: 30%;
+    background: rgba(244, 227, 195, 1); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  .menu-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu-list li {
+    font-size: 20px;
+    color: #5e4b2f;
+    margin-bottom: 10px;
+  }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #684A27;
+}
+
+header {
+    padding: 2px 0;
+    background: linear-gradient(180deg, #000000 50%, rgba(0, 0, 0, 0) 100%), #8D7859;
+
+}
+
+.header-container {
+    display:flex;
+    align-items: center;
+    align-content:center;
+    justify-content: space-between;
+    padding: 0 10px;
+    height: 70px;
+    
+}
+.bar-1 {
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+}
+.bar-1 img{
+  width: 100%;
+    
+}
+.logo img {
+    object-fit:contain;
+    width:400px;
+    height:200px;
+    margin-bottom:50px;
+}
+
+.menu a {
+    color: #d2b48c; 
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 40px;
+}
+
+.menu a:hover {
+    color: #eae0c2; 
+}
+
+.language {
+    font-size: 14px;
+    color: #d2b48c;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    left: -90px;
+    top: -140px;
+    
+    
+}
+
+.language span {
+    font-weight: bold;
+    position: absolute;
+    top:70px;
+}
+.language img{
+    top:0px;
+    position:absolute;
+    
+}
+.menu {
+    display: fixed;
+    align-items: center;
+    margin-right: 199px;
+}
+
+.menu a:first-child {
+    margin-left: 0;
+}
+.imagine-principala img {
+    width: 100%;
+}
+
+footer {
+    margin-top: 100px;
+    color: #d2b48c;
+    background-color: #000000;
+    background-image: url("/images/header-bar.png");
+    height: 100px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.imagine-principala {
+    width: 100%;
+    height: 100%; 
+    background-color: #684A27;
+    z-index: -1;
+}
+
+
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.social-icons {
+  margin-left: -1280px; 
+  transform: translateY(20px);
+}
+.social-icons a {
+  margin: 0 10px;
+}
+
+.social-icons img {
+    width: 36px; 
+    filter: none; 
+    color: #FCE3AF;
+    fill: #FCE3AF;
+}
+
+.footer-container p {
+
+    font-family: 'Montserrat', sans-serif;
+    
+    opacity: 40%;
+    font-weight: 300;
+    font-size: 20px;
+    margin: 5px 0;
+    margin-top: -5px;
+    position: relative;
+    z-index: 10;
+
+}
+.ramen img{
+  width: 50%;
+  z-index: -10;  
+  margin-top: 40px; 
+
+}
+.container {
+    position: relative;
+    width: 600px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .container img {
+    position: relative;
+    width: 600px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .text-container {
+    position: absolute;
+    top: 5%;
+    width: 100%;
+    font-family: Montaga;
+    text-align: center;
+    color: #FAE1AC; 
+    display:column;
+
+  }
+  
+  .title {
+    font-size: 70px;
+    font-weight: 100;
+    text-transform: uppercase;
+  }
+  
+  hr {
+    border: 1px solid #D7DFB2;
+    width: 100%;
+    margin: 20px auto;
+    width: 95%;
+  }
+  
+  .menu-text {
+    position: absolute;
+    right: 180px;
+    z-index: 3;
+    top: 8px;
+    color: #b02e22;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Staatliches', sans-serif;
+}
+
+.ramen {
+    margin-top: -820px;
+    margin-bottom: 20px;
+}
+.reteta {
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(104, 74, 39, 1)),#2b1810;
+    border-radius: 15px;
+    padding: 35px;
+    color: #fff;
+    width: 550px;
+    height: 170;
+    font-family: 'Judson';
+    color: #F2DDBC;
+    border-radius: 41px;
+    font-size: 30px;
+    margin: 20px;
+    margin-left: 630px;
+    margin-top: -560px;
+}
+.reteta3 {
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(104, 74, 39, 1)),#2b1810;
+    border-radius: 15px;
+    padding: 35px;
+    color: #fff;
+    width: 550px;
+    height: 170;
+    font-family: 'Judson';
+    color: #F2DDBC;
+    border-radius: 41px;
+    font-size: 30px;
+    margin: 20px;
+    margin-left: 630px;
+    margin-top: -560px;
+}
+.reteta2 {
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(104, 74, 39, 1)),#2b1810;
+    border-radius: 15px;
+    padding: 35px;
+    color: #fff;
+    width: 550px;
+    height: 200;
+    font-family: 'Judson';
+    color: #F2DDBC;
+    border-radius: 41px;
+    font-size: 30px;
+    margin: 20px;
+    margin-left: 800px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.volume {
+    margin-bottom: 10px;
+}
+
+.description {
+    margin: 15px 0;
+    line-height: 1;
+}
+
+
+
+.highlight {
+    color: #cd7f32; 
+
+}
+
+.ingredients {
+    margin: 5px 0;
+}
+
+.price {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+    color: #F8F0D6;
+    font-weight: bold;
+}
+
+/* Adăugăm stilurile pentru meniul dropdown */
+.menu-dropdown {
+    position: absolute;
+    top: 100px;
+    right: 180px;
+    background: rgba(70, 60, 45, 0.97);
+    min-width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    display: none;
+    z-index: 1000;
+}
+
+.supe-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.supa-item {
+    display: flex;
+    align-items: center;
+    padding: 15px 25px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: relative;
+}
+
+.supa-item:hover {
+    transform: translateX(10px);
+    background: rgba(0, 0, 0, 0.35);
+}
+
+.supa-item:hover::before {
+    content: "•";
+    position: absolute;
+    left: 5px;
+    color: #C96B49;
+}
+
+.supa-item a {
+    text-decoration: none;
+    width: 100%;
+    color: #d2b48c;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.supa-item:hover a {
+    color: #C96B49;
+}
+
+/* Modificăm animațiile pentru Ramen */
+@keyframes rotateSumaOut {
+    from {
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+    to {
+        transform: rotate(180deg);
+        opacity: 0;
+    }
+}
+
+@keyframes rotateSupaIn {
+    from {
+        transform: rotate(180deg);
+        opacity: 0;
+    }
+    to {
+        transform: rotate(360deg);
+        opacity: 1;
+    }
+}
+
+.ramen img {
+    transition: all 0.5s ease;
+}
+
+.rotate-out {
+    animation: rotateSumaOut 0.8s ease-in-out forwards;
+}
+
+.rotate-in {
+    animation: rotateSupaIn 0.8s ease-in-out forwards;
+}
+
+/* Responsive Design pentru Supe */
+
+/* Tablet și ecrane medii */
+@media (max-width: 800px) {
+    .header-container {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .logo img {
+        width: 300px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .menu {
+        margin-right: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .menu a {
+        margin: 0 20px;
+        font-size: 18px;
+    }
+
+    .menu-text {
+        right: 10px;
+        font-size: 30px;
+    }
+
+    .language {
+        left: 0;
+        top: 0;
+        position: static;
+        margin-top: 10px;
+    }
+
+    .language span {
+        position: static;
+    }
+
+    .language img {
+        position: static;
+        margin-right: 5px;
+    }
+
+    .container {
+        width: 90%;
+        height: 250px;
+    }
+
+    .container img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .title {
+        font-size: 50px;
+    }
+
+    .ramen {
+        margin-top: -600px;
+        text-align: center;
+    }
+
+    .ramen img {
+        width: 80%;
+        max-width: 400px;
+    }
+
+    .reteta {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 20px;
+        padding: 25px;
+        font-size: 24px;
+    }
+    .reteta3 {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 20px;
+        padding: 25px;
+        font-size: 24px;
+    }
+
+    .reteta2 {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 20px;
+        padding: 25px;
+        font-size: 24px;
+    }
+
+    .social-icons {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .menu-dropdown {
+        position: fixed;
+        top: 120px;
+        right: 10px;
+        left: 10px;
+        min-width: auto;
+        width: calc(100% - 20px);
+    }
+}
+
+/* Telefoane mari (iPhone 13, etc.) */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: auto;
+        padding: 15px 10px;
+    }
+
+    .logo img {
+        width: 200px;
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+    .menu {
+        flex-direction: column;
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    .menu a {
+        margin: 8px 0;
+        font-size: 16px;
+        padding: 5px 0;
+    }
+
+    .menu-text {
+        font-size: 25px;
+        top: 15px;
+        right: 10px;
+    }
+
+    .language {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+
+    .container {
+        width: 95%;
+        height: 200px;
+        margin: 0 auto;
+    }
+
+    .container img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .title {
+        font-size: 40px;
+    }
+
+    .ramen {
+        margin-top: -400px;
+        text-align: center;
+    }
+
+    .ramen img {
+        width: 90%;
+        max-width: 300px;
+    }
+
+    .reteta {
+        width: 95%;
+        margin-left: 2.5%;
+        margin-top: 15px;
+        padding: 20px;
+        font-size: 20px;
+    }
+    .reteta3 {
+        width: 95%;
+        margin-left: 2.5%;
+        margin-top: 15px;
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    .reteta2 {
+        width: 95%;
+        margin-left: 2.5%;
+        margin-top: 15px;
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    .price {
+        font-size: 24px;
+    }
+
+    .social-icons {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .social-icons img {
+        width: 32px;
+    }
+
+    .menu-dropdown {
+        position: fixed;
+        top: 100px;
+        right: 5px;
+        left: 5px;
+        width: calc(100% - 10px);
+        padding: 15px;
+    }
+}
+
+/* iPhone 13 mini și telefoane mici */
+@media (max-width: 480px) {
+    .logo img {
+        width: 130px;
+    }
+
+    .menu a {
+        font-size: 13px;
+    }
+
+    .menu-text {
+        font-size: 18px;
+    }
+
+    .container {
+        height: 160px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .ramen {
+        margin-top: -240px;
+    }
+
+    .ramen img {
+        width: 98%;
+        max-width: 220px;
+    }
+
+    .reteta {
+        padding: 12px;
+        font-size: 14px;
+    }
+    .reteta3 {
+        padding: 12px;
+        font-size: 14px;
+        margin-top: 200px;
+    }
+    footer {
+        margin-top: 120px;
+    }
+    .reteta2 {
+        padding: 12px;
+        font-size: 14px;
+    }
+    .spices {
+        display: none;
+    }
+    body {
+        background-color: #684A27;
+    }
+    .price {
+        font-size: 18px;
+    }
+
+}
+
+/* iPhone 13 mini specific (375px) */
+@media (max-width: 375px) {
+    .logo img {
+        width: 130px;
+    }
+
+    .menu a {
+        font-size: 13px;
+    }
+
+    .menu-text {
+        font-size: 18px;
+    }
+
+    .container {
+        height: 160px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .ramen {
+        margin-top: -380px;
+    }
+
+    .ramen img {
+        width: 98%;
+        max-width: 220px;
+    }
+
+    .reteta {
+        padding: 12px;
+        font-size: 14px;
+    }
+    .reteta3 {
+        padding: 12px;
+        font-size: 14px;
+        margin-top: 200px;
+    }
+    footer {
+        margin-top: 120px;
+    }
+    .reteta2 {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    .price {
+        font-size: 18px;
+    }
+
+}
+
+/* Pentru ecrane foarte mici */
+@media (max-width: 320px) {
+    .logo img {
+        width: 110px;
+    }
+
+    .menu a {
+        font-size: 12px;
+    }
+
+    .menu-text {
+        font-size: 16px;
+    }
+
+    .container {
+        height: 140px;
+    }
+
+    .title {
+        font-size: 25px;
+    }
+
+    .ramen {
+        margin-top: -250px;
+    }
+
+    .ramen img {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .reteta {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .reteta2 {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .price {
+        font-size: 16px;
+    }
+}

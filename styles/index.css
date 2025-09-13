@@ -1,0 +1,689 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montaga&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montaga&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Staatliches&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    background-color: #8D7859;
+}
+
+header {
+    padding: 2px 0;
+    background: linear-gradient(180deg, #000000 50%, rgba(0, 0, 0, 0) 100%), #8D7859;
+    position: relative;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    height: 70px;
+    position: relative;
+}
+
+.bar-1 {
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+}
+
+.bar-1 img {
+    width: 100%;
+}
+
+.logo img {
+    object-fit: contain;
+    width: 400px;
+    height: 200px;
+    margin-bottom: 50px;
+}
+
+.menu a {
+    color: #d2b48c;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 40px;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #eae0c2;
+}
+
+.language {
+    font-size: 14px;
+    color: #d2b48c;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    left: -90px;
+    top: -140px;
+}
+
+.language span {
+    font-weight: bold;
+    position: absolute;
+    top: 70px;
+}
+
+.language img {
+    top: 0px;
+    position: absolute;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    margin-right: 199px;
+}
+
+.menu a:first-child {
+    margin-left: 0;
+}
+
+.imagine-principala img {
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+footer {
+    margin-top: 190px;
+    color: #d2b48c;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(180deg, #000000 50%, rgba(0, 0, 0, 0) 100%), #8D7859;
+    background-image: url('../images/header-bar.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px 0;
+    position: relative;
+    z-index: 10;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.social-icons {
+    margin-left: -1280px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 36px;
+    filter: brightness(0) invert(1);
+}
+
+.footer-container p {
+    font-family: 'Montserrat', sans-serif;
+    opacity: 40%;
+    font-weight: 300;
+    font-size: 20px;
+    margin: 5px 0;
+    margin-top: -5px;
+}
+
+.ceas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e4c89e;
+    margin-top: -500px;
+    text-transform: uppercase;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 1s ease;
+}
+
+.ceasic {
+    margin-right: 20px;
+    margin-left: -25px;
+}
+
+.container {
+    position: relative;
+    width: 600px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.container img {
+    position: relative;
+    width: 600px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.ceas img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text-container {
+    position: absolute;
+    top: 5%;
+    width: 100%;
+    font-family: Montaga;
+    text-align: center;
+    color: #FAE1AC;
+    display: column;
+}
+
+.title {
+    font-size: 70px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.time-box {
+    display: inline-flex;
+    align-items: center;
+    background-color: #BEA681;
+    padding: 4px 50px;
+    border-radius: 10px;
+    margin-top: 0px;
+    transition: all 0.3s ease;
+}
+
+.animate-ceas .time-box {
+    animation: fadeInUp 1s ease forwards;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.time {
+    font-size: 70px;
+    font-weight: 400;
+    font-family: Montaga;
+    color: #4a2e0f;
+}
+
+hr {
+    border: 1px solid #D7DFB2;
+    width: 100%;
+    margin: 20px auto;
+    width: 95%;
+}
+.menu-text {
+    position: absolute;
+    right: 180px; 
+    z-index: 3;
+    top: -108px; 
+    color: #b02e22;  
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Staatliches', sans-serif;
+}
+
+.animate-ceas {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Tablet și ecrane medii */
+@media (max-width: 800px) {
+    .header-container {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .logo img {
+        width: 300px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .menu {
+        margin-right: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .menu a {
+        margin: 0 20px;
+        font-size: 18px;
+    }
+
+    .menu-text {
+        right: 10px;
+        font-size: 60px;
+    }
+
+    .language {
+        left: 0;
+        top: 0;
+        position: static;
+        margin-top: 10px;
+    }
+
+    .language span {
+        position: static;
+    }
+
+    .language img {
+        position: static;
+        margin-right: 5px;
+    }
+
+    .social-icons {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .ceas {
+        margin-top: -300px;
+    }
+
+    .container {
+        width: 90%;
+        height: 250px;
+    }
+
+    .container img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .title {
+        font-size: 50px;
+    }
+
+    .time {
+        font-size: 50px;
+    }
+
+    footer {
+        margin-top: 100px;
+        background: linear-gradient(180deg, #000000 50%, rgba(0, 0, 0, 0) 100%), #8D7859;
+        background-image: url('../images/header-bar.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 15px 0;
+    }
+
+    .imagine-principala img {
+        min-height: 80vh;
+    }
+}
+
+/* Telefoane mari (iPhone 13, etc.) */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: auto;
+        padding: 15px 10px;
+    }
+
+    .logo img {
+        width: 200px;
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+    .menu {
+        flex-direction: column;
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    .menu a {
+        margin: 8px 0;
+        font-size: 16px;
+        padding: 5px 0;
+    }
+
+    .menu-text {
+        font-size: 50px;
+        top: 20px;
+        right: 10px;
+    }
+
+    .language {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+
+    .container {
+        width: 95%;
+        height: 200px;
+        margin: 0 auto;
+    }
+
+    .container img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .time-box {
+        padding: 4px 30px;
+    }
+
+    .time {
+        font-size: 40px;
+    }
+
+    .title {
+        font-size: 40px;
+    }
+
+    .ceas {
+        margin-top: -350px;
+    }
+
+    .social-icons {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .social-icons img {
+        width: 32px;
+    }
+
+    .footer-container p {
+        font-size: 16px;
+    }
+
+    footer {
+        margin-top: 80px;
+        background: linear-gradient(180deg, #000000 50%, rgba(0, 0, 0, 0) 100%), #8D7859;
+        background-image: url('../images/header-bar.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 15px 0;
+    }
+
+    .menu-dropdown {
+        position: fixed;
+        top: 100px;
+        right: 5px;
+        left: 5px;
+        width: calc(100% - 10px);
+        padding: 15px;
+    }
+
+    .imagine-principala img {
+        min-height: 70vh;
+    }
+}
+
+/* iPhone 13 mini și telefoane mici */
+@media (max-width: 480px) {
+    .header-container {
+        padding: 10px 5px;
+    }
+
+    .logo img {
+        width: 150px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .menu a {
+        font-size: 14px;
+        margin: 6px 0;
+    }
+
+    .menu-text {
+        font-size: 40px;
+        right: 5px;
+        top: 15px;
+    }
+
+    .language {
+        font-size: 11px;
+    }
+
+    .container {
+        width: 98%;
+        height: 180px;
+    }
+
+    .time-box {
+        padding: 4px 20px;
+    }
+
+    .time {
+        font-size: 35px;
+    }
+
+    .title {
+        font-size: 35px;
+    }
+
+    .ceas {
+        margin-top: -300px;
+    }
+
+    .footer-container p {
+        font-size: 14px;
+    }
+
+    .social-icons img {
+        width: 28px;
+    }
+
+    footer {
+        margin-top: 60px;
+        background: linear-gradient(180deg, #000000 50%, rgba(0, 0, 0, 0) 100%), #8D7859;
+        background-image: url('../images/header-bar.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 12px 0;
+    }
+
+    .menu-dropdown {
+        top: 100px;
+        right: 5px;
+        left: 5px;
+        width: calc(100% - 10px);
+        padding: 15px;
+    }
+
+    .supa-item {
+        padding: 12px 20px;
+    }
+
+    .supa-item a {
+        font-size: 16px;
+    }
+
+    .imagine-principala img {
+        min-height: 60vh;
+    }
+}
+
+/* iPhone 13 mini specific (375px) */
+@media (max-width: 375px) {
+    .logo img {
+        width: 130px;
+    }
+
+    .menu a {
+        font-size: 13px;
+    }
+
+    .menu-text {
+        font-size: 35px;
+    }
+
+    .container {
+        height: 160px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .time {
+        font-size: 30px;
+    }
+
+    .time-box {
+        padding: 3px 15px;
+    }
+
+    .ceas {
+        margin-top: -270px;
+    }
+
+    footer {
+        margin-top: 50px;
+        background: linear-gradient(180deg, #000000 50%, rgba(0, 0, 0, 0) 100%), #8D7859;
+        background-image: url('../images/header-bar.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 10px 0;
+    }
+
+    .imagine-principala img {
+        min-height: 55vh;
+    }
+}
+
+/* Pentru ecrane foarte mici */
+@media (max-width: 320px) {
+    .logo img {
+        width: 110px;
+    }
+
+    .menu a {
+        font-size: 12px;
+    }
+
+    .menu-text {
+        font-size: 30px;
+    }
+
+    .container {
+        height: 140px;
+    }
+
+    .title {
+        font-size: 25px;
+    }
+
+    .time {
+        font-size: 25px;
+    }
+
+    .ceas {
+        margin-top: -250px;
+    }
+
+    .footer-container p {
+        font-size: 12px;
+    }
+
+    .social-icons img {
+        width: 24px;
+    }
+
+    footer {
+        margin-top: 40px;
+        background: linear-gradient(180deg, #000000 50%, rgba(0, 0, 0, 0) 100%), #8D7859;
+        background-image: url('../images/header-bar.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 8px 0;
+    }
+
+    .imagine-principala img {
+        min-height: 50vh;
+    }
+}
+
+.menu-dropdown {
+    position: absolute;
+    top: 100px;
+    right: 180px;
+    background: rgba(70, 60, 45, 0.97);
+    min-width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    display: none;
+    z-index: 1000;
+}
+
+.supe-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.supa-item {
+    display: flex;
+    align-items: center;
+    padding: 15px 25px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: relative;
+}
+
+.supa-item:hover {
+    transform: translateX(10px);
+    background: rgba(0, 0, 0, 0.35);
+}
+
+.supa-item:hover::before {
+    content: "•";
+    position: absolute;
+    left: 5px;
+    color: #C96B49;
+}
+
+.supa-item a {
+    text-decoration: none;
+    width: 100%;
+    color: #d2b48c;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.supa-item:hover a {
+    color: #C96B49;
+}
